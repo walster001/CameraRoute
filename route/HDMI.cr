@@ -1,7 +1,7 @@
-sudo apt get "av.component"
-sudo apt get "hdmi.component"
-sudo apt get "comp.component"
-sudo apt get "vga.component"
+puts get "av.component"
+puts get "hdmi.component"
+puts get "comp.component"
+puts get "vga.component"
 
 public class HDMI {
 
@@ -18,5 +18,5 @@ if hdmi.component (="0") wait(1); then hdmi.component.reconnect;
 
 private class resolutionAdjust {
  if hdmi.component (res="1920x1080") then return perfect.resolution("Perfect Resolution Attained");
- else if (res < "1920x1080") then def (res="1920x1080")
+ else if (res < "1920x1080") then def (res="1920x1080");
 }
