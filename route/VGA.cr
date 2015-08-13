@@ -1,7 +1,7 @@
-sudo apt get "av.component"
-sudo apt get "hdmi.component"
-sudo apt get "comp.component"
-sudo apt get "vga.component"
+puts get "av.component"
+puts get "hdmi.component"
+puts get "comp.component"
+puts get "vga.component"
 
 public class VGA {
 
