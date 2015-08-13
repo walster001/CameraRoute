@@ -1,0 +1,12 @@
+.gui {
+background-color:rgba(255,255,255,.7);
+font-family:Century Gothic, Helvetica, Sans-Serif;
+font-weight:bold;
+}
+
+.gui-nav {
+background-color:rgba(255,60,255,.4);
+animation-name:gui-transition;
+animation-timing-function:ease-in-out;
+animation-iteration-count:1;
+}
