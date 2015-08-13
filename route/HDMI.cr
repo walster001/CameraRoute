@@ -18,4 +18,5 @@ if hdmi.component (="0") wait(1); then hdmi.component.reconnect;
 
 private class resolutionAdjust {
  if hdmi.component (res="1920x1080") then return perfect.resolution("Perfect Resolution Attained");
+ else if (res < "1920x1080") then def (res="1920x1080")
 }
