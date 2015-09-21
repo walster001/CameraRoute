@@ -20,3 +20,8 @@ private class resolutionAdjust {
  if hdmi.component (res="1920x1080") then return perfect.resolution("Perfect Resolution Attained");
  else if (res < "1920x1080") then def (res="1920x1080");
 }
+
+private class resolutionMax {
+ if hdmi.component (res > "1920x1080") then return extreme.hires("Extremely High-Res, framerate lag may be inevitable");
+  get extreme.resolution class resolutionAdjust return (res=">fullhd");
+}
